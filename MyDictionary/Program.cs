@@ -14,7 +14,8 @@ namespace MyDictionary
             devices.Add(3, "Aquameter");
 
 
-            Console.WriteLine("Antech'in ölçüm cihazları : ");
+            Console.WriteLine("Antech'in ölç-" +
+                "üm cihazları : ");
             for (int i = 0; i < devices.KeyLength; i++)
             {
                 Console.WriteLine("{0} : {1}", devices.Keys[i], devices.Values[i]);
